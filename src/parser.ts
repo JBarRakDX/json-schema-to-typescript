@@ -54,6 +54,7 @@ export function parse(
       allOf: [],
       description: schema.description,
       id: schema.id,
+      $id: schema.$id,
       title: schema.title
     },
     'ALL_OF',
@@ -300,7 +301,7 @@ function standaloneName(
   keyNameFromDefinition: string | undefined,
   usedNames: UsedNames
 ): string | undefined {
-  const name = schema.title || schema.id || keyNameFromDefinition
+  const name = schema.title || schema.id || schema.$id || keyNameFromDefinition
   if (name) {
     return generateName(name, usedNames)
   }

@@ -56,6 +56,9 @@ rules.set('Default top level `id`', (schema, fileName) => {
   if (isRoot && !schema.id) {
     schema.id = toSafeString(justName(fileName))
   }
+  else if (isRoot && !schema.$id) {
+    schema.$id = toSafeString(justName(fileName))
+  }
 })
 
 rules.set('Escape closing JSDoc Comment', schema => {
