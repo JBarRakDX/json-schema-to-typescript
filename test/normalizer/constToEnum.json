@@ -6,6 +6,7 @@
   },
   "out": {
     "id": "foo",
-    "enum": ["foobar"]
+    "enum": ["foobar"],
+    "$id": "ConstToEnum"
   }
 }

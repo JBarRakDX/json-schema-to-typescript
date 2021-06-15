@@ -5,12 +5,14 @@
     "extends": [],
     "type": "object",
     "required": [],
-    "additionalProperties": true
+    "additionalProperties": true,
+    "$id": "RemoveEmptyExtends1"
   },
   "out": {
     "id": "foo",
     "type": "object",
     "required": [],
-    "additionalProperties": true
+    "additionalProperties": true,
+    "$id": "RemoveEmptyExtends1"
   }
 }

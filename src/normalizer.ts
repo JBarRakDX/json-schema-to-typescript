@@ -55,8 +55,7 @@ rules.set('Default top level `id`', (schema, fileName) => {
   const isRoot = schema[Parent] === null
   if (isRoot && !schema.id) {
     schema.id = toSafeString(justName(fileName))
-  }
-  else if (isRoot && !schema.$id) {
+  } else if (isRoot && !schema.$id) {
     schema.$id = toSafeString(justName(fileName))
   }
 })

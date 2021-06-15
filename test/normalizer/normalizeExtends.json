@@ -5,7 +5,8 @@
     "extends": "foo",
     "type": "object",
     "required": [],
-    "additionalProperties": true
+    "additionalProperties": true,
+    "$id": "NormalizeExtends"
   },
   "out": {
     "id": "foo",
@@ -14,6 +15,7 @@
     ],
     "type": "object",
     "required": [],
-    "additionalProperties": true
+    "additionalProperties": true,
+    "$id": "NormalizeExtends"
   }
 }

@@ -21,6 +21,7 @@
       }
     },
     "additionalProperties": true,
-    "required": []
+    "required": [],
+    "$id": "AddEmptyRequiredProperty"
   }
 }

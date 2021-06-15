@@ -195,6 +195,7 @@
       }
     },
     "additionalProperties": false,
-    "required": []
+    "required": [],
+    "$id": "SchemaItems"
   }
 }
